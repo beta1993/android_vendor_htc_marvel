@@ -28,7 +28,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/marvel/proprietary/lib/libaudioeq.so:/system/lib/libaudioeq.so \
     vendor/htc/marvel/proprietary/lib/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
-    vendor/htc/marvel/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so
+    vendor/htc/marvel/proprietary/lib/libhtc_ril.so:/system/lib/libhtc_ril.so \
+    vendor/htc/marvel/proprietary/etc/ppp/chap-secrets:/system/etc/ppp/chap-secrets \
+    vendor/htc/marvel/proprietary/etc/ppp/ip-down:/system/etc/ppp/ip-down \
+    vendor/htc/marvel/proprietary/etc/ppp/ip-up:/system/etc/ppp/ip-up \
+    vendor/htc/marvel/proprietary/etc/ppp/ip-up-vpn:/system/etc/ppp/ip-up-vpn \
+    vendor/htc/marvel/proprietary/etc/ppp/options:/system/etc/ppp/options \
+    vendor/htc/marvel/proprietary/etc/ppp/pap-secrets:/system/etc/ppp/pap-secrets
 
 # OMX
 PRODUCT_COPY_FILES += \
