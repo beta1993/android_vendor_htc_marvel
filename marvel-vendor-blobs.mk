@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES += \
+    vendor/htc/marvel/proprietary/libcamera.so:obj/lib/libcamera.so
+
 # Audio and WPDB
 PRODUCT_COPY_FILES += \
     vendor/htc/marvel/proprietary/etc/AudioFilter.csv:/system/etc/AudioFilter.csv \
@@ -38,5 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/marvel/proprietary/lib/libmm-adspsvc.so:/system/lib/libmm-adspsvc.so
 
 PRODUCT_COPY_FILES += \
+    vendor/htc/marvel/proprietary/libcamera.so:/system/lib/libcamera.so \
     vendor/htc/marvel/proprietary/liboemcamera.so:/system/lib/liboemcamera.so
 
