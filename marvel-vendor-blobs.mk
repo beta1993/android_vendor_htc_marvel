@@ -14,7 +14,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/marvel/proprietary/libcamera.so:obj/lib/libcamera.so
+    vendor/htc/marvel/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
 # Audio and WPDB
 PRODUCT_COPY_FILES += \
@@ -42,6 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/marvel/proprietary/lib/libmm-adspsvc.so:/system/lib/libmm-adspsvc.so
 
 PRODUCT_COPY_FILES += \
-    vendor/htc/marvel/proprietary/libcamera.so:/system/lib/libcamera.so \
-    vendor/htc/marvel/proprietary/liboemcamera.so:/system/lib/liboemcamera.so
+    vendor/htc/marvel/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
+    vendor/htc/marvel/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so
 
